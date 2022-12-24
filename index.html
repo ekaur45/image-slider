@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The slider</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="d-flex flex-column vh100">
+        <div class="d-flex h-75">
+            <div class="w-25 card">
+                <ul class="list-group" id="categories">
+                    <li class="list-group-item">
+                        <a href="#">Trial 1</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">Trial 2</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">Trial 3</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="w-50">
+                <div class="ms-5 me-5 h-100 " id="container">
+                    <div class="swiper h-100">
+                        <div class="swiper-wrapper" id="swipers">
+                        </div>
+                        <div class="controls d-flex justify-content-between position-absolute z-3 bottom-0 w-100 align-items-baseline">
+                            <button class="btn bg-black bg-opacity-50 text-bg-danger swiper-button-prev">
+                                <i class="bi-skip-backward-fill"></i>                                
+                            </button>
+                            <div class="align-items-center d-flex justify-content-center">
+                                <button class="btn bg-black bg-opacity-25 text-bg-danger ">
+                                    <i class="bi-pause"></i>
+                                </button>
+                                <div class="btn-group">
+                                    <button class="btn btn-primary me-1">
+                                        Images
+                                    </button>
+                                    <button class="btn btn-primary ms-1">
+                                        Videos
+                                    </button>
+                                </div>
+                                <button class="btn bg-black bg-opacity-25 text-bg-danger ">
+                                    
+                                    <i class="bi-play"></i>
+                                </button>
+                            </div>
+                            <button class="btn bg-black bg-opacity-50 text-bg-danger swiper-button-next">
+                                <i class="bi-skip-forward-fill"></i>                                
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-25">
+
+            </div>
+        </div>
+        <div class="h-25">
+
+        </div>
+    </div>
+
+
+    <script type="module" src="assets/js/index.js"></script>
+</body>
+</html>

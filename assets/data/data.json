@@ -1,0 +1,20 @@
+{
+    "categories":["Category 1","Category 2","Category 3","Category 4","Category 5"],
+    "files":[
+        {
+          "type":"image",
+          "category":"Category 1",
+          "url":"https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+        },
+        {
+          "type":"image",
+          "category":"Category 1",
+          "url":"https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8="
+        },
+        {
+          "type":"image",
+          "category":"Category 1",
+          "url":"https://www.shutterstock.com/image-photo/view-above-stunning-aerial-unidentified-260nw-1911116815.jpg"
+        }
+    ]
+}

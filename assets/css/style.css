@@ -1,0 +1,25 @@
+@import url('../plugins/bootstrap/css/bootstrap.min.css');
+@import url('../plugins/swiper/css/swiper-bundle.min.css');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+.vh100{
+    height:100vh;
+}
+.swiper-button-prev::after{
+    content: none;
+}
+.swiper-button-next::after{
+    content: none;
+}
+.swiper-button-next, .swiper-button-prev {
+    position: unset !important ;
+    top: unset !important;
+    width: calc(var(--swiper-navigation-size)/ 44 * 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color,var(--swiper-theme-color));
+}
